@@ -22,7 +22,8 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #009246;
+    //color: #009246;
+    color: white;
 }
 
 h1,
