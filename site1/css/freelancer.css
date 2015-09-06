@@ -191,8 +191,13 @@ section.success {
 
 /*Niek*/
 section.location{
-	background: #CE2B37;
-        //background-image:url(../img/Molveno.JPG);
+	//background: #CE2B37;
+        background: url(../img/Molveno.JPG);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: #ffffff;
 }
 .portfolio-item{
     padding-left:0px;
