@@ -203,6 +203,13 @@ section.location{
     padding-left:0px;
     padding-right:0px;
 }
+.navbar-default{
+    background-color: #009246;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    color: #CE2B37;
+    background-color: #009246;
+}
 
 section.success a,
 section.success a:hover,
