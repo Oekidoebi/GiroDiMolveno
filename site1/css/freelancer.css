@@ -189,28 +189,6 @@ section.success {
     background: #009246;
 }
 
-/*Niek*/
-section.location{
-	//background: #CE2B37;
-        background: url(../img/Molveno.JPG);
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        color: #ffffff;
-}
-.portfolio-item{
-    padding-left:0px;
-    padding-right:0px;
-}
-.navbar-default{
-    background-color: #009246;
-}
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-    color: #CE2B37;
-    background-color: #009246;
-}
-
 section.success a,
 section.success a:hover,
 section.success a:focus,
