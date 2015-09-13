@@ -25,6 +25,18 @@ section.location{
         background-repeat: no-repeat;
         color: #ffffff;
 }
+section.contact{
+	//background: #CE2B37;
+        background: url(../img/spaken.JPG);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: #ffffff;
+}
+#portfolio-item-1-1{
+    background-color: #ffb901;
+}
 .portfolio-item{
     padding-left:0px;
     padding-right:0px;
