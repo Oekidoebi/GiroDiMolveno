@@ -137,11 +137,11 @@ img.img-circle.team-img {
     font-weight: 300;
 }
 
-.about h2{
+.about h2, .giro h2{
     margin: 0 0 20px 0;
 }
 
-.about .tagline {
+.about .tagline, .giro .tagline {
     font-family: Montserrat, sans-serif;
     font-weight: 700;
     font-size: 16px;
