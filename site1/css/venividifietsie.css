@@ -13,6 +13,17 @@ rood: #CE2B37
 groen: #009246
 */
 
+header{
+    background-image:url(../img/UitgeblustSepia.JPG);
+    background-position:center center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+body{
+    color:#960611;
+}
+
 #giro{
     background-color: #CE2B37;
 }
@@ -42,7 +53,7 @@ section.contact{
     padding-right:0px;
 }
 .navbar-default{
-    background-color: #009246;
+    background-color: transparent;
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus,
@@ -53,6 +64,16 @@ section.contact{
 .navbar-default .navbar-nav>li>a:focus, 
 .navbar-default .navbar-nav>.active>a:hover{
     color: #CE2B37;
+    background-color: transparent;
+}
+
+.navbar-shrink,.navbar-shrink .navbar-brand:hover, .navbar-shrink .navbar-brand:focus,
+.navbar-shrink .navbar-nav>.active>a:hover, 
+.navbar-shrink .navbar-nav>.active>a:focus,
+.navbar-shrink .navbar-nav>.active>a, 
+.navbar-shrink .navbar-nav>li>a:hover, 
+.navbar-shrink .navbar-nav>li>a:focus, 
+.navbar-shrink .navbar-nav>.active>a:hover{
     background-color: #009246;
 }
 
@@ -107,4 +128,38 @@ img.img-circle.team-img {
 }
 .owl-theme .owl-controls .owl-page.active span{
 	background: #CE2B37;
+}
+
+.btn-vvf-header{
+    margin-top:300px;
+    padding: 60px 40px;
+    font-size: 1.75em;
+    font-weight: 300;
+}
+
+.about h2{
+    margin: 0 0 20px 0;
+}
+
+.about .tagline {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    color: #93999a;
+    text-transform: uppercase;
+    margin: 0 0 65px 0;
+}
+
+#about p{
+    color:#303031;
+}
+
+#about span{
+    font-size: 30px;
+    color:#303031;
+}
+
+.vvf-about-features{
+    margin-top:50px;
 }
