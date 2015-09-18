@@ -10,6 +10,7 @@ and open the template in the editor.
 
 /*--Colors--
 rood: #CE2B37
+donkerrood: #960611;
 groen: #009246
 */
 
@@ -162,4 +163,12 @@ img.img-circle.team-img {
 
 .vvf-about-features{
     margin-top:50px;
+}
+
+.team-member-function{
+    color: #93999a;
+}
+
+.team-member-description{
+    color: #303031;
 }
