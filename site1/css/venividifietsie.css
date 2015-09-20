@@ -173,3 +173,21 @@ img.img-circle.team-img {
 .team-member-description{
     color: #303031;
 }
+
+.overlay-vvf{
+    position: absolute;
+    top:20%;
+    left:0;
+    width:100%;
+    height:100%;
+    color:white;
+}
+
+.overlay-portfolio{
+    position: absolute;
+    top:80%;
+    left:0;
+    width:100%;
+    height:100%;
+    color:white;
+}
