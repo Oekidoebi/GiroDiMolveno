@@ -191,3 +191,17 @@ img.img-circle.team-img {
     height:100%;
     color:white;
 }
+
+a.fa.fa-angle-down {
+    padding: 10px 15px;
+    color: #fff;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    font-size: 24px;
+    margin-top: 200px;
+    transition: all 0.5s;
+}
+a.fa.fa-angle-down:hover{
+    background: #FFF;
+    color: #009246;
+}
