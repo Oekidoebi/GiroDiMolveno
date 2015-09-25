@@ -15,7 +15,7 @@ groen: #009246
 */
 
 header{
-    background-image:url(../img/UitgeblustSepia.JPG);
+    background-image:url(../img/Uitgeblust1.JPG);
     background-position:center center;
     background-size:cover;
     background-attachment: fixed;
@@ -203,5 +203,14 @@ a.fa.fa-angle-down {
 }
 a.fa.fa-angle-down:hover{
     background: #FFF;
-    color: #009246;
+    color: #CE2B37;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px #fff;
+    color: #CE2B37;
+    background: #fff;
 }
