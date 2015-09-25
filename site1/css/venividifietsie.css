@@ -37,6 +37,8 @@ section.location{
         background-attachment: fixed;
         background-repeat: no-repeat;
         color: #ffffff;
+        padding-top:0px;
+        padding-bottom:0px;
 }
 section.contact{
 	//background: #CE2B37;
@@ -213,4 +215,21 @@ a.fa.fa-angle-down:hover{
     border: solid 2px #fff;
     color: #CE2B37;
     background: #fff;
+}
+
+.vvf-locatie-div{
+    background-color:#CE2B37;
+}
+
+.vvf-locatie-img{
+    -webkit-backface-visibility: hidden;
+    max-width: 100%;
+    height: auto;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:20px;
+}
+
+.location .about{
+    padding-top: 50px;
 }
