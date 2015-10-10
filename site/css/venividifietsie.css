@@ -18,10 +18,12 @@ body{
 
 /*HEADER*/
 header{
+    background:none;
     background-image:url(../img/Uitgeblust1.JPG);
     background-position:center center;
     background-size:cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .btn-vvf-header{
@@ -68,6 +70,7 @@ header{
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: #ffffff;
+    height:350px;
 }
 /*END TUSSENFOTO*/
 
@@ -176,6 +179,10 @@ img.img-circle.team-img {
         background-attachment: fixed;
         background-repeat: no-repeat;
         color: #ffffff;
+}
+
+.vvf-contact-div{
+    background-color:rgba(146, 153, 154, 0.3);
 }
 /*END CONTACT*/
 
