@@ -400,16 +400,57 @@
                         <div class="tagline">
                             Telefoneren: een demarrage die je al van een kilometer aan ziet komen
                         </div>
+                        <p>
+                            Vragen? Stuur ons een berichtje of een e-mail... we denken graag mee. Of vraag direct een offerte aan.
+                        </p>
                     </div>    
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-6 vvf-contact-div text-center">
-                    <p>Info@venividifietsie.com</p>
-                    <p>Offerte</p>
+                <div class="col-xs-5 vvf-contact-div text-center">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row control-group vvf-contact-control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Naam</label>
+                                <input type="text" class="form-control" placeholder="Naam" id="name" required data-validation-required-message="Vul uw naam in.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group vvf-contact-control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>E-mail adres</label>
+                                <input type="email" class="form-control" placeholder="E-mail adres" id="email" required data-validation-required-message="Vul uw e-mail adres in.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group vvf-contact-control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Telefoonnummer</label>
+                                <input type="tel" class="form-control" placeholder="Telefoonnummer" id="phone">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group vvf-contact-control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Bericht</label>
+                                <textarea rows="5" class="form-control" placeholder="Bericht" id="message" required data-validation-required-message="Schrijf hier uw bericht."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" class="btn btn-lg vvf-btn">Verzend</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-                <div class="col-xs-6 vvf-contact-div">
-                    <ul class="list-inline text-center">
+                <div class="col-xs-2"></div>
+                <div class="col-xs-5 vvf-contact-div text-center">
+                    <button class="btn btn-lg vvf-btn-2">info@venividifietsie.com</button>
+                    <button class="btn btn-lg vvf-btn-2">Offerte</button>
+                    <ul class="list-inline">
                         <li>
                             <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
                         </li>
@@ -430,40 +471,6 @@
 
     <!-- Footer -->
     <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Locatie</h3>
-                        <p>Via Belvedere 15<br>Molveno Trento Italia</p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Vind ons op het web</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Over Veni Vidi Fietsie</h3>
-                        <p>Veni Vidi Fietsie organiseert competitieve en/of reacreatieve racefietstochten voor groepen vanuit hotel Lory in de Dolomieten.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="footer-below">
             <div class="container">
                 <div class="row">
