@@ -181,6 +181,10 @@ img.img-circle.team-img {
         color: #ffffff;
 }
 
+#vvf-contact .tagline{
+    color:#960611;
+}
+
 .vvf-contact-div{
     background-color:rgba(146, 153, 154, 0.3);
     border-radius: 6px;
@@ -267,6 +271,19 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
 .vvf-modal-foto{
     border-radius:10px;
 }
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 0px;
+}
+
+#vvf-omgeving-carousel{
+    margin-bottom:20px;
+}
+
+.carousel-inner img, .carousel-control{
+    border-radius:6px;
+}
+
 /*END MODALS*/
 
 
