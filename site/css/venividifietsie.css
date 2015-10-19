@@ -88,6 +88,10 @@ header{
         color: #ffffff;
 }
 
+#vvf-location .tagline{
+    color:#93999a;
+}
+
 .vvf-locatie-div{
     background-color:#CE2B37;
 }
@@ -182,7 +186,9 @@ img.img-circle.team-img {
 }
 
 #vvf-contact .tagline{
-    color:#960611;
+    color:#CE2B37;
+    background-color: rgba(41, 41, 41, 0.8);
+    border-radius: 6px;
 }
 
 .vvf-contact-div{
