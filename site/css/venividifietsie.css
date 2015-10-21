@@ -97,18 +97,23 @@ header{
     color:#93999a;
 }
 
-.vvf-locatie-div{
-    background-color:#CE2B37;
+#vvf-location span{
+    font-size:50px;
+    color:#303031;
+}
+.vvf-location-row{
+    padding-bottom:5em;
+}
+.vvf-location-icondiv{
+    background-color: rgba(146, 153, 154, 0.3);
+    border-radius: 6px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.vvf-location-icondiv:hover{
+    background-color: #93999a;
 }
 
-.vvf-locatie-img{
-    -webkit-backface-visibility: hidden;
-    max-width: 100%;
-    height: auto;
-    padding-left:10px;
-    padding-right:10px;
-    padding-bottom:20px;
-}
 
 /*END LOCATION*/
 
