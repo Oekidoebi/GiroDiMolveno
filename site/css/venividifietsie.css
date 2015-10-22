@@ -138,10 +138,17 @@ header{
     border: none;
 }
 
-.vvf-location-ul>li.active>a, .vvf-location-ul>li.active>a:hover, .vvf-location-ul>li.active>a:focus {
+.vvf-location-ul>li.active>a:hover{
+    background-color: rgba(146, 153, 154, 0.3);
+    border: none;
+    cursor: default;
+}
+
+.vvf-location-ul>li.active>a, .vvf-location-ul>li.active>a:focus {
     background-color: transparent;
     border: none;
     cursor: default;
+    color: #CE2B37;
 }
 
 
