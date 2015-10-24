@@ -104,25 +104,19 @@ header{
 .vvf-location-row{
     padding-bottom:5em;
 }
-.vvf-location-icondiv{
-    background-color: rgba(146, 153, 154, 0.3);
-    border-radius: 6px;
-    padding-top:5px;
-    padding-bottom:5px;
-}
-.vvf-location-icondiv:hover{
-    background-color: #93999a;
-}
 
 .vvf-location-ul{
     display: inline-block;
     border:none;
 }
 .vvf-location-ul>li{
-    border-right: 2px solid #d7d7d7;
+    border-right: 2px solid #93999a;
 }
 
 .vvf-location-ul>li:last-child{
+    border:none;
+}
+.vvf-location-ul>li>a{
     border:none;
 }
 
@@ -138,20 +132,21 @@ header{
     border: none;
 }
 
-.vvf-location-ul>li.active>a:hover{
-    background-color: rgba(146, 153, 154, 0.3);
-    border: none;
-    cursor: default;
-}
-
-.vvf-location-ul>li.active>a, .vvf-location-ul>li.active>a:focus {
+.vvf-location-ul>li.active>a:hover, .vvf-location-ul>li.active>a, .vvf-location-ul>li.active>a:focus{
     background-color: transparent;
     border: none;
     cursor: default;
-    color: #CE2B37;
+    color:white;
+
+}
+.vvf-location-ul>li>a:hover{
+    background-color: transparent;
+    //color: #960611;
 }
 
-
+.vvf-location-ul>li>a>span:hover, .vvf-location-ul>li.active>a>span, .vvf-location-ul>li.active>a>span:focus{
+    color: #960611 !important;
+}
 
 /*END LOCATION*/
 
