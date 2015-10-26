@@ -108,6 +108,7 @@ header{
 .vvf-location-ul{
     display: inline-block;
     border:none;
+    margin-bottom: 2em;
 }
 .vvf-location-ul>li{
     border-right: 2px solid #93999a;
@@ -146,6 +147,26 @@ header{
 
 .vvf-location-ul>li>a>span:hover, .vvf-location-ul>li.active>a>span, .vvf-location-ul>li.active>a>span:focus{
     color: #960611 !important;
+}
+
+#loc-hotel>div{
+    border:10px solid #93999a;
+    padding-bottom: 40%;
+    overflow:hidden;
+}
+
+#loc-hotel .content {
+    position:absolute;
+    height:80%; /* = 100% - 2*10% padding */
+    width:90%; /* = 100% - 2*5% padding */
+    padding: 10% 5%;
+}
+#loc-hotel .img{
+    background-image: url(../img/hotellory2.jpg);
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+    color:#fff;
 }
 
 /*END LOCATION*/
