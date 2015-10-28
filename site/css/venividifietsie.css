@@ -51,6 +51,12 @@ header{
 .vvf-about-features{
     margin-top:50px;
 }
+
+@media(max-width:767px){
+    .vvf-about-features{
+        display:none;
+    }
+}
 /*END ABOUT VVF*/
 
 /*PROGRAM*/
@@ -169,6 +175,15 @@ header{
     color:#fff;
 }
 
+@media(max-width:767px){
+    .vvf-location-ul a {
+        padding: 0 20px !important;
+        font-size: 20px;
+    }
+    .vvf-location-ul h4{
+        display:none;
+    }
+}
 /*END LOCATION*/
 
 /*TEAM*/
