@@ -29,14 +29,6 @@ header{
     background-repeat: no-repeat;
 }
 
-.btn-vvf-header{
-    margin-top:100px;
-    margin-bottom:10px;
-    padding: 60px 40px;
-    font-size: 1.75em;
-    font-weight: 300;
-}
-
 .container-full {
     margin: 0 auto;
     width: 100%;
@@ -59,7 +51,7 @@ header{
 }
 /*END ABOUT VVF*/
 
-/*PROGRAM*/
+/*AANBOD*/
 #vvf-program{
     background: url(../img/paganella2.jpg);
     background-size: cover;
@@ -68,7 +60,26 @@ header{
     background-repeat: no-repeat;
     color: #ffffff;
 }
-/*END PROGRAM*/
+
+.btn-vvf-header{
+    margin-top:100px;
+    margin-bottom:10px;
+    padding: 60px 40px;
+    font-size: 1.75em;
+    font-weight: 300;
+}
+
+@media(max-width:767px){
+    .btn-vvf-header{
+        margin-top:10px;
+        margin-bottom:10px;
+        padding: 20px 10px;
+        font-size: 1.25em;
+        font-weight: 200;
+        width: 100%;
+    }
+}
+/*END AANBOD*/
 
 /*GIRO DI MOLVENO*/
 /*END GIRO DI MOLVENO*/
@@ -155,24 +166,9 @@ header{
     color: #960611 !important;
 }
 
-#loc-hotel>div{
-    border:10px solid #93999a;
-    padding-bottom: 40%;
-    overflow:hidden;
-}
-
-#loc-hotel .content {
-    position:absolute;
-    height:80%; /* = 100% - 2*10% padding */
-    width:90%; /* = 100% - 2*5% padding */
-    padding: 10% 5%;
-}
-#loc-hotel .img{
-    background-image: url(../img/hotellory2.jpg);
-    background-position:center center;
-    background-repeat:no-repeat;
-    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
-    color:#fff;
+.vvf-hotel{
+    border-radius:6px;
+    border:5px solid #303031;
 }
 
 @media(max-width:767px){
