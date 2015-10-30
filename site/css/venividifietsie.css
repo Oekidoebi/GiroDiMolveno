@@ -22,7 +22,7 @@ body{
 /*HEADER*/
 header{
     background:none;
-    background-image:url(../img/Uitgeblust1.JPG);
+    background-image:url(../img/uitgeblust1.jpg);
     background-position:center center;
     background-size:cover;
     background-attachment: fixed;
@@ -61,7 +61,7 @@ header{
 
 /*PROGRAM*/
 #vvf-program{
-    background: url(../img/Paganella2.JPG);
+    background: url(../img/paganella2.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -75,7 +75,7 @@ header{
 
 /*TUSSENFOTO*/
 #vvf-tussenfoto{
-    background: url(../img/Picnic2.JPG);
+    background: url(../img/picnic2.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -91,7 +91,7 @@ header{
 /*LOCATION*/
 #vvf-location{
 	//background: #CE2B37;
-        background: url(../img/Molveno2.JPG);
+        background: url(../img/molveno2.jpg);
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -256,7 +256,7 @@ img.img-circle.team-img {
 /*CONTACT*/
 #vvf-contact{
 	//background: #CE2B37;
-        background: url(../img/Spaken2.JPG);
+        background: url(../img/spaken2.jpg);
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
