@@ -409,9 +409,16 @@ a.fa.fa-angle-down:hover{
     background: #fff;
 }
 
-
-
-
+/*OPMAAK-FORMULIER*/
 #vvf-offerte{
 
+}
+
+
+/*Fix for Ipad/Iphone/IOS problem with background images*/
+@media screen and (max-device-width: 1023px){
+    header,#vvf-tussenfoto,#vvf-program,#vvf-location,#vvf-contact{
+        background-attachment: scroll;
+    }
+    
 }
