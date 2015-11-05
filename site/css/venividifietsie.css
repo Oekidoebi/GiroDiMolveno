@@ -365,6 +365,20 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
     border-radius:6px;
 }
 
+.vvf-panel>.panel-heading{
+    color:#303031;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.vvf-panel .panel-body .vvf-panel-span{
+    padding-right:.5em;
+}
+
+.vvf-panel-label{
+    color:#303031;
+    font-weight: bold;
+}
 /*END MODALS*/
 
 
