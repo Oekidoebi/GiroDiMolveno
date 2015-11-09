@@ -15,6 +15,11 @@ $(function() {
             var email = $("input#email").val();
             var phone = $("input#phone").val();
             var message = $("textarea#message").val();
+            var aanbod = $("select#aanbod").val();
+            var periode = $("select#periode").val();
+            var dagen = $("input#dagen").val();
+            var groepsgrootte = $("input#groepsgrootte").val();
+
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(' ') >= 0) {
@@ -27,7 +32,11 @@ $(function() {
                     name: name,
                     phone: phone,
                     email: email,
-                    message: message
+                    message: message,
+                    aanbod: aanbod,
+                    periode: periode,
+                    dagen: dagen,
+                    groepsgrootte: groepsgrootte
                 },
                 cache: false,
                 success: function() {

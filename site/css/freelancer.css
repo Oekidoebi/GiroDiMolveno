@@ -362,6 +362,16 @@ option {
     color: #18bc9c;
 }
 
+.floating-label-form-group-vvf {
+    font-style: italic;
+    color:#18bc9c;
+}
+
+.floating-label-form-group-vvf-offerte{
+    font-style: italic;
+    font-size: 1.0em
+}
+
 form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
 }
