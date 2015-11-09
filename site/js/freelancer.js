@@ -32,6 +32,7 @@ $('body').scrollspy({
 })
 
 // Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
+// Uitgezet zodat menu goed op mobiel werkt.
+/*$('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
-});
+});*/
