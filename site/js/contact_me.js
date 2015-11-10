@@ -16,7 +16,9 @@ $(function() {
             var phone = $("input#phone").val();
             var message = $("textarea#message").val();
             var aanbod = $("select#aanbod").val();
-            var periode = $("select#periode").val();
+            var dag = $("input#dagnummer").val();
+            var maand = $("select#maand").val();
+            var jaar = $("input#jaartal").val();
             var dagen = $("input#dagen").val();
             var groepsgrootte = $("input#groepsgrootte").val();
 
@@ -34,7 +36,9 @@ $(function() {
                     email: email,
                     message: message,
                     aanbod: aanbod,
-                    periode: periode,
+                    dagnummer: dagnummer,
+                    maand: maand,
+                    jaartal: jaartal,
                     dagen: dagen,
                     groepsgrootte: groepsgrootte
                 },

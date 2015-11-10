@@ -513,11 +513,11 @@
                             </div>
                         </div>
                         <div class="row vvf-contact-control-group controls floating-label-form-group-vvf-offerte">
-                            Wilt u direct een offerte? Vul dan <u>ook</u> onderstaande vragen in.
+                            Wilt u direct een offerte? Vul dan <u>ook</u> onderstaande vragen en aankomstdatum in (alleen beschikbaar in de maanden juni en september).
                         </div>
                         
                         <div class="row control-group vvf-contact-control-group">
-                            <div class="form-group col-xs-12 col-md-6 floating-label-form-group controls floating-label-form-group-vvf">
+                            <div class="form-group col-xs-12 floating-label-form-group controls floating-label-form-group-vvf">
                                 <label>Waarin bent u geïnteresseerd?</label>
                                 <select type="text" class="form-control" placeholder="Aanbod" id="aanbod">
                                   <option value="" disabled selected hidden>Kies een optie</option>
@@ -525,28 +525,39 @@
                                   <option value="Pas op, voor pasta">Pas op, voor pasta</option>
                                 </select>
                             </div>
-
-
-                            <div class="form-group col-xs-12 col-md-6 floating-label-form-group controls floating-label-form-group-vvf">
-                                <label>Kies een maand</label>
-                                <select type="text" class="form-control" placeholder="Periode" id="periode">
-                                  <option value="" disabled selected hidden>Kies een maand</option>
-                                  <option value="Juni">Juni</option>
-                                  <option value="September">September</option>
-                                </select>
-                            </div>
+                            
                             <p class="help-block text-danger"></p>
                         </div>
 
 
                         <div class="row control-group vvf-contact-control-group">
-                            <div class="form-group col-xs-12 col-md-6 floating-label-form-group controls floating-label-form-group-vvf">
-                                <label>Aantal dagen</label>
-                                <input type="text" class="form-control col-xs-12 col-md-6" placeholder="Aantal dagen" id="dagen" required data-validation-required-message="Vul het aantal dagen in">
+                            <div class="form-group col-xs-3 floating-label-form-group controls floating-label-form-group-vvf">
+                                <label>Dag</label>
+                                <input type="text" class="form-control" placeholder="Dag" id="dagnummer" required data-validation-required-message="Vul een dag in.">
                             </div>
-                            <div class="form-group col-xs-12 col-md-6 floating-label-form-group controls floating-label-form-group-vvf">
+                            <div class="form-group col-xs-6 floating-label-form-group controls floating-label-form-group-vvf">
+                                <label>Maand</label>
+                                <select type="text" class="form-control" placeholder="Maand" id="maand">
+                                  <option value="" disabled selected hidden>Maand</option>
+                                  <option value="Juni">Juni</option>
+                                  <option value="September">September</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-xs-3 floating-label-form-group controls floating-label-form-group-vvf">
+                                <label>Jaar</label>
+                                <input type="text" class="form-control" placeholder="Jaar" id="jaartal" required data-validation-required-message="Vul een jaar in.">
+                            </div>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        
+                        <div class="row control-group vvf-contact-control-group">   
+                            <div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-6 floating-label-form-group controls floating-label-form-group-vvf">
+                                <label>Aantal dagen</label>
+                                <input type="text" class="form-control" placeholder="Aantal dagen" id="dagen" required data-validation-required-message="Vul het aantal dagen in">
+                            </div>
+                            <div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-6 floating-label-form-group controls floating-label-form-group-vvf">
                                 <label>Aantal personen</label>
-                                <input type="text" class="form-control col-xs-12 col-md-6" placeholder="Aantal personen" id="groepsgrootte" required data-validation-required-message="Vul het aantal personen in.">
+                                <input type="text" class="form-control" placeholder="Aantal personen" id="groepsgrootte" required data-validation-required-message="Vul het aantal personen in.">
                             </div>
                             <p class="help-block text-danger"></p>
                         </div>
