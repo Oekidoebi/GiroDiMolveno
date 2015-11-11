@@ -38,7 +38,7 @@ header{
 /*ABOUT VVF*/
 #vvf-about span{
     font-size: 30px;
-    color:#ce2b37;
+    color:#960611;
 }
 .vvf-about-features{
     margin-top:50px;
@@ -101,7 +101,7 @@ header{
 
 /*LOCATION*/
 #vvf-location{
-	//background: #CE2B37;
+	//background: #960611;
         background: url(../img/molveno2.jpg);
         background-size: cover;
         background-position: center;
@@ -200,7 +200,7 @@ img.img-circle.team-img {
 }
 
 #vvf-team .item .thumbnail:hover>img.img-circle.team-img{
-//	border: 4px solid #CE2B37;
+//	border: 4px solid #960611;
 }
 #vvf-team .thumbnail {
 	background: transparent;
@@ -230,10 +230,10 @@ img.img-circle.team-img {
 .owl-theme .owl-controls.clickable .owl-page:hover span {
 	filter: Alpha(Opacity=100);
 	opacity: 1;
-	background: #CE2B37;
+	background: #960611;
 }
 .owl-theme .owl-controls .owl-page.active span{
-	background: #CE2B37;
+	background: #960611;
 }
 
 .team-member-name{
@@ -251,7 +251,7 @@ img.img-circle.team-img {
 
 /*CONTACT*/
 #vvf-contact{
-	//background: #CE2B37;
+	//background: #960611;
         background: url(../img/spaken2.jpg);
         background-size: cover;
         background-position: center;
@@ -261,7 +261,7 @@ img.img-circle.team-img {
 }
 
 #vvf-contact .tagline{
-    color:#CE2B37;
+    color:#960611;
     background-color: rgba(41, 41, 41, 0.8);
     border-radius: 6px;
 }
@@ -293,7 +293,7 @@ form .row:first-child .floating-label-form-group{
 }
 
 .vvf-btn:hover, .vvf-btn-2:hover{
-    color:#CE2B37;
+    color:#960611;
 }
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
@@ -316,7 +316,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
 .navbar-default .navbar-nav>li>a:hover, 
 .navbar-default .navbar-nav>li>a:focus, 
 .navbar-default .navbar-nav>.active>a:hover{
-    color: #CE2B37;
+    color: #960611;
     background-color: transparent;
 }
 
@@ -419,7 +419,7 @@ a.fa.fa-angle-down:hover{
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #CE2B37;
+    color: #960611;
     background: #fff;
 }
 

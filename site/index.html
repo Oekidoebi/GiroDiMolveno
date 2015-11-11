@@ -18,11 +18,14 @@
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Favicon-->
+    <link rel="icon" href="img/logo/favicon.png">
+
     <!-- Custom CSS -->
-     <link href="css/freelancer.css" rel="stylesheet">
-     <link href="css/owl.theme.css" rel="stylesheet">
-     <link href="css/owl.carousel.css" rel="stylesheet">
-     <link href="css/venividifietsie.css" rel="stylesheet">
+    <link href="css/freelancer.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/venividifietsie.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -501,7 +504,7 @@
                         <div class="row control-group vvf-contact-control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Telefoonnummer</label>
-                                <input type="tel" class="form-control" placeholder="Telefoonnummer" id="phone">
+                                <input type="tel" class="form-control" placeholder="Telefoonnummer" id="phone" required data-validation-required-message="Vul uw telefoonnummer in.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -530,12 +533,12 @@
                         </div>
 
 
-                        <div class="row control-group vvf-contact-control-group">
-                            <div class="form-group col-xs-3 floating-label-form-group controls floating-label-form-group-vvf">
+                        <div class="row vvf-contact-control-group">
+                            <div class="control-group form-group col-xs-3 floating-label-form-group controls floating-label-form-group-vvf">
                                 <label>Dag</label>
-                                <input type="text" class="form-control" placeholder="Dag" id="dagnummer" required data-validation-required-message="Vul een dag in.">
+                                <input type="text" class="form-control" placeholder="Dag" id="dag">
                             </div>
-                            <div class="form-group col-xs-6 floating-label-form-group controls floating-label-form-group-vvf">
+                            <div class="control-group form-group col-xs-6 floating-label-form-group controls floating-label-form-group-vvf">
                                 <label>Maand</label>
                                 <select type="text" class="form-control" placeholder="Maand" id="maand">
                                   <option value="" disabled selected hidden>Maand</option>
@@ -543,23 +546,21 @@
                                   <option value="September">September</option>
                                 </select>
                             </div>
-                            <div class="form-group col-xs-3 floating-label-form-group controls floating-label-form-group-vvf">
+                            <div class="control-group form-group col-xs-3 floating-label-form-group controls floating-label-form-group-vvf">
                                 <label>Jaar</label>
-                                <input type="text" class="form-control" placeholder="Jaar" id="jaartal" required data-validation-required-message="Vul een jaar in.">
+                                <input type="text" class="form-control" placeholder="Jaar" id="jaar">
                             </div>
-                            <p class="help-block text-danger"></p>
                         </div>
                         
                         <div class="row control-group vvf-contact-control-group">   
                             <div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-6 floating-label-form-group controls floating-label-form-group-vvf">
                                 <label>Aantal dagen</label>
-                                <input type="text" class="form-control" placeholder="Aantal dagen" id="dagen" required data-validation-required-message="Vul het aantal dagen in">
+                                <input type="text" class="form-control" placeholder="Aantal dagen" id="dagen">
                             </div>
                             <div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-6 floating-label-form-group controls floating-label-form-group-vvf">
                                 <label>Aantal personen</label>
-                                <input type="text" class="form-control" placeholder="Aantal personen" id="groepsgrootte" required data-validation-required-message="Vul het aantal personen in.">
+                                <input type="text" class="form-control" placeholder="Aantal personen" id="groepsgrootte">
                             </div>
-                            <p class="help-block text-danger"></p>
                         </div>
                         <br>
                         <div id="success"></div>
