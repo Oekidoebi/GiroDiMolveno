@@ -183,7 +183,10 @@ header{
 /*END LOCATION*/
 
 /*TEAM*/
-#team{ margin: 0 auto}
+#team{ 
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
 
 #team .item{
     padding: 0;
@@ -208,7 +211,7 @@ img.img-circle.team-img {
 }
 
 #vvf-team .thumbnail .caption {
-	padding: 9px;
+	padding: 0px;
 	color: white;
 }
 
