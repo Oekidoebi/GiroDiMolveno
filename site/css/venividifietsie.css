@@ -94,6 +94,11 @@ header{
     color: #ffffff;
     //height:350px;
 }
+
+.vvf-thumbnail{
+    background-color:rgba(146, 153, 154, 0.3);
+    border:none;
+}
 /*END TUSSENFOTO*/
 
 /*PAS OP VOOR PASTA*/
