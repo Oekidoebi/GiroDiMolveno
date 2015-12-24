@@ -99,6 +99,10 @@ header{
     background-color:rgba(146, 153, 154, 0.3);
     border:none;
 }
+.vvf-thumbnail .caption{
+    background-color:rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+}
 /*END TUSSENFOTO*/
 
 /*PAS OP VOOR PASTA*/
