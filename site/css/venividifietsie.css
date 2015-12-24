@@ -369,7 +369,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
     margin-bottom: 0px;
 }
 
-#vvf-omgeving-carousel{
+#vvf-omgeving-carousel, #vvf-omgeving-carousel2, #vvf-hotel-carousel {
     margin-bottom:20px;
 }
 
