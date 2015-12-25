@@ -259,6 +259,14 @@ img.img-circle.team-img {
 .team-member-description{
     color: #303031;
 }
+
+.vvf-team-collapse{
+    color:#303031
+}
+
+.vvf-btn-3{
+    width:60% !important;
+}
 /*END TEAM*/
 
 /*CONTACT*/
