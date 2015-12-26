@@ -1393,7 +1393,7 @@ if (typeof Object.create !== "function") {
     };
 
     $.fn.owlCarousel.options = {
-        items: 5,
+        items: 4,
         itemsCustom: false,
         itemsDesktop: [1199, 4],
         itemsDesktopSmall: [979, 3],
@@ -1454,8 +1454,8 @@ $(document).ready(function () {
             [700, 2],
             [1000, 4],
             [1200, 4],
-            [1400, 4],
-            [1600, 4]
+            [1400, 5],
+            [1600, 5]
         ]
     });
 });
