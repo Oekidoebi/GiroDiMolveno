@@ -127,6 +127,11 @@ header{
     font-size:50px;
     color:#303031;
 }
+
+#vvf-location .vvf-route-features span{
+    font-size:35px;
+}
+
 .vvf-location-row{
     padding-bottom:5em;
 }
