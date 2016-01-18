@@ -17,9 +17,18 @@ header{
     background-image:url(../img/giroweek/giroheaderfoto.jpg);    
 }
 
-/*NAVIGATION BAR*/
-.navbar-default{
-    background-color: #d6698e;
+.vvf-aanmelden-btn {
+    padding: 15px 70px;
+    color: #fff;
+    border: 4px solid #d6698e;
+    border-radius: 40px;
+    font-size: 20px;
+    margin-top: 200px;
+    transition: all 0.5s;
+    background-color: rgba(48,48,48,.7);
+}
+.vvf-aanmelden-btn:hover{
+    background-color: #303031;
 }
 
 .vvf-intro-container{
@@ -32,3 +41,9 @@ header{
 .intro-text .skills{
     color:#d6698e;
 }
+
+/*NAVIGATION BAR*/
+.navbar-default{
+    background-color: #d6698e;
+}
+
