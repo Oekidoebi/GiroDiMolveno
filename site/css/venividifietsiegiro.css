@@ -1,0 +1,34 @@
+/* 
+    Created on : 11-sep-2015, 14:48:31
+    Author     : Niek
+*/
+
+/*--Colors--
+italie-rood: #CE2B37
+italie-groen: #009246
+donkerrood (letter): #960611
+donkergrijs (letter): #303031
+lichtgrijs (letter): #93999a
+Giroroze: #d6698e / 214,105,142
+*/
+
+/*HEADER*/
+header{
+    background-image:url(../img/giroweek/giroheaderfoto.jpg);    
+}
+
+/*NAVIGATION BAR*/
+.navbar-default{
+    background-color: #d6698e;
+}
+
+.vvf-intro-container{
+    background-color: #303031;
+    border-radius: 4px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.intro-text .skills{
+    color:#d6698e;
+}
