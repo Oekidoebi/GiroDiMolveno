@@ -42,8 +42,93 @@ header{
     color:#d6698e;
 }
 
+@media (max-width: 1366px){
+    header .intro-text .name {
+        font-size:2.5em;
+    }
+    header .intro-text .skills {
+        font-size:1.25em;
+    }
+}
+
 /*NAVIGATION BAR*/
 .navbar-default{
     background-color: #d6698e;
 }
 
+/*AANMELDEN*/
+#vvf-aanmelden{
+    //background: #960611;
+        background: url(../img/aanmelden.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: #ffffff;
+}
+
+#vvf-aanmelden .tagline{
+    color:#960611;
+    background-color: rgba(41, 41, 41, 0.8);
+    border-radius: 6px;
+}
+
+.vvf-aanmelden-div{
+    background-color:rgba(146, 153, 154, 0.3);
+    border-radius: 6px;
+}
+
+.vvf-aanmelden-control-group{
+    margin-left:5px;
+    margin-right:5px;
+}
+
+form .row:first-child .floating-label-form-group{
+    border-top:none;
+}
+.form-control{
+    color:white;
+}
+.vvf-btn, .vvf-btn-2{
+    width:100%;
+    color:white;
+    background-color:#303031;
+}
+.vvf-btn-2{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.vvf-btn:hover, .vvf-btn-2:hover{
+    color:#960611;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
+    color:white !important;
+}
+.floating-label-form-group-with-value label{
+    opacity: 0;
+}
+/*END AANMELDEN*/
+
+
+/*GIROWEEK
+.btn-vvf-header{
+    margin-top:100px;
+    margin-bottom:10px;
+    padding: 60px 40px;
+    font-size: 1.75em;
+    font-weight: 300;
+}
+
+@media(max-width:767px){
+    .btn-vvf-header{
+        margin-top:10px;
+        margin-bottom:10px;
+        padding: 20px 10px;
+        font-size: 1.25em;
+        font-weight: 200;
+        width: 100%;
+    }
+}
+END GIROWEEK*/
