@@ -13,3 +13,13 @@ $('.SeeMore2').click(function(){
 			$this.text('Minder');
 		}
 	});
+
+$('.SeeMore3').click(function(){
+		var $this = $(this);
+		$this.toggleClass('SeeMore3');
+		if($this.hasClass('SeeMore3')){
+			$this.text('Voorwaarden');			
+		} else {
+			$this.text('Sluit voorwaarden');
+		}
+	});

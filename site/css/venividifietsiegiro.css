@@ -76,6 +76,7 @@ header{
 .navbar-default .navbar-nav>li>a:focus, 
 .navbar-default .navbar-nav>.active>a:hover{
     color: #303031;
+    background-color: transparent;
 }
 
 /*ABOUT GIRO*/
