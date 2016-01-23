@@ -85,7 +85,7 @@ header{
 /*END GIRO DI MOLVENO*/
 
 /*TUSSENFOTO*/
-#vvf-tussenfoto{
+/*#vvf-tussenfoto{
     background: url(../img/picnic2.jpg);
     background-size: cover;
     background-position: center;
@@ -93,7 +93,7 @@ header{
     background-repeat: no-repeat;
     color: #ffffff;
     //height:350px;
-}
+}*/
 
 .vvf-thumbnail{
     background-color:rgba(146, 153, 154, 0.3);

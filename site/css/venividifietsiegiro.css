@@ -95,7 +95,7 @@ header{
 /*AANMELDEN*/
 #vvf-aanmelden{
     //background: #960611;
-        background: url(../img/aanmelden.jpg);
+        background: url(../img/giroweek/paganella.jpg);
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -104,7 +104,7 @@ header{
 }
 
 #vvf-aanmelden .tagline{
-    color:#960611;
+    color:#d6698e;
     background-color: rgba(41, 41, 41, 0.8);
     border-radius: 6px;
 }
@@ -148,9 +148,29 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
 /*END AANMELDEN*/
 
 /*TUSSENSECTIE*/
-.thumbnail{
+#giro-tussensectie{
+    background: url(../img/giroweek/giroerica.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#giro-tussensectie .thumbnail{
     background-color: #d6698e;
     border: 1px solid #d6698e;
+}
+
+/*HOOGTEPROFIELEN*/
+/*TUSSENFOTO*/
+#vvf-tussenfoto{
+    background: url(../img/giroweek/giropicnic.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    //height:350px;
 }
 
 a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
