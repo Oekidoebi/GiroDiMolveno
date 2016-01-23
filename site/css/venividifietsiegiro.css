@@ -205,23 +205,10 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
     color:#d6698e;
 }
 
-/*GIROWEEK
-.btn-vvf-header{
-    margin-top:100px;
-    margin-bottom:10px;
-    padding: 60px 40px;
-    font-size: 1.75em;
-    font-weight: 300;
-}
-
-@media(max-width:767px){
-    .btn-vvf-header{
-        margin-top:10px;
-        margin-bottom:10px;
-        padding: 20px 10px;
-        font-size: 1.25em;
-        font-weight: 200;
-        width: 100%;
+/*Fix for Ipad/Iphone/IOS problem with background images*/
+@media screen and (max-device-width: 1023px){
+    #vvf-aanmelden,#giro-tussensectie,#giro-hoogteprofielen{
+        background-attachment: scroll;
     }
+    
 }
-END GIROWEEK*/
