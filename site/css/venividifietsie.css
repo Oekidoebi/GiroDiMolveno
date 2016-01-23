@@ -457,7 +457,7 @@ a.fa.fa-angle-down:hover{
 
 /*Fix for Ipad/Iphone/IOS problem with background images*/
 @media screen and (max-device-width: 1023px){
-    header,#vvf-tussenfoto,#vvf-program,#vvf-location,#vvf-contact{
+    header,#vvf-tussenfoto,#vvf-program,#vvf-location,#vvf-contact,#vvf-aanmelden,#giro-tussensectie,#giro-hoogteprofielen{
         background-attachment: scroll;
     }
     
