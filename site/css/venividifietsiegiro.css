@@ -135,7 +135,7 @@ form .row:first-child .floating-label-form-group{
     margin-bottom:15px;
 }
 
-.vvf-btn:hover, .vvf-btn-2:hover{
+.vvf-btn:hover, .vvf-btn-2:hover, .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active{
     color:#d6698e;
 }
 
@@ -202,12 +202,38 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
     padding-top:1em;
 }
 
+.vvf-star{
+    font-size:.5em !important;
+    vertical-align:super;
+}
+
 .giro-programma h2, .giro-procedure h2{
     color:#fff;
 }
 
 .giro-programma p, .giro-procedure p{
     color:#d6698e;
+}
+
+.giro-kosten p span{
+    color:#303031;
+}
+
+.vvf-p-grey{
+    color:#303031 !important;
+}
+
+.well{
+    background-color: #E6E6E6;
+}
+
+@media(max-width:991px){
+    .giro-programma h2, .giro-procedure h2, .giro-kosten h2, .giro-wiewat h2{
+        font-size: 1.75em;
+    }
+    .giro-programma, .giro-procedure, .giro-kosten, .giro-wiewat{
+        margin: 0.4em 0em;
+    }
 }
 
 /*Fix for Ipad/Iphone/IOS problem with background images*/
