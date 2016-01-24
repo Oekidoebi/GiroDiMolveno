@@ -205,6 +205,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 .vvf-star{
     font-size:.5em !important;
     vertical-align:super;
+    color:#93999a;
 }
 
 .giro-programma h2, .giro-procedure h2{
@@ -220,11 +221,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 }
 
 .vvf-p-grey{
-    color:#303031 !important;
-}
-
-.well{
-    background-color: #E6E6E6;
+    color:#93999a !important;
 }
 
 @media(max-width:991px){
