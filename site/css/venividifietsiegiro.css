@@ -233,6 +233,13 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
     }
 }
 
+/*VOORWAARDEN*/
+@media(max-width:991px){
+    #Voorwaardemodal h2{
+        font-size: 1.75em;
+    }
+}
+
 /*Fix for Ipad/Iphone/IOS problem with background images*/
 @media screen and (max-device-width: 1023px){
     #vvf-aanmelden,#giro-tussensectie,#giro-hoogteprofielen{
