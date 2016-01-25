@@ -233,6 +233,32 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
     }
 }
 
+/*LOCATIE*/
+#giro-locatie .vvf-location-ul>li.active>a:hover, #giro-locatie .vvf-location-ul>li.active>a, #giro-locatie .vvf-location-ul>li.active>a:focus{
+    color:#d6698e;
+}
+#giro-locatie a{
+    color:#93999a;
+    min-height: 40px;
+}
+#giro-locatie a:hover, #giro-locatie a:focus{
+    color:#d6698e;
+}
+
+#giro-locatie .vvf-location-ul{
+    margin-bottom:1em;
+}
+
+#giro-locatie .vvf-location-ul>li>a>span:hover, .vvf-location-ul>li.active>a>span, .vvf-location-ul>li.active>a>span:focus {
+    color: #d6698e !important;
+}
+
+@media(min-width:768px){
+    #giro-locatie span{
+        display:none;
+    }
+}
+
 /*VOORWAARDEN*/
 @media(max-width:991px){
     #Voorwaardemodal h2{
