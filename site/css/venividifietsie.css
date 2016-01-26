@@ -62,8 +62,8 @@ header{
 }
 
 .btn-vvf-header{
-    margin-top:100px;
-    margin-bottom:10px;
+    //margin-top:100px;
+    //margin-bottom:10px;
     padding: 60px 40px;
     font-size: 1.75em;
     font-weight: 300;
@@ -71,13 +71,19 @@ header{
 
 @media(max-width:767px){
     .btn-vvf-header{
-        margin-top:10px;
-        margin-bottom:10px;
+        //margin-top:10px;
+        //margin-bottom:10px;
         padding: 20px 10px;
         font-size: 1.25em;
         font-weight: 200;
         width: 100%;
     }
+}
+
+.btn-vvf-header:hover, .btn-vvf-header:focus, .btn-vvf-header:active, .btn-vvf-header.active{
+    color:#d6698e !important;
+    background-color:#303031 !important;
+    border: solid 2px #303031 !important;
 }
 /*END AANBOD*/
 
@@ -475,4 +481,12 @@ a.fa.fa-angle-down:hover{
 }
 .vvf-giroweek-btn:hover{
     background-color: #303031;
+}
+
+@media screen and (max-device-width: 767px){
+    .vvf-giroweek-btn {
+        padding:15px 20px;
+        font-size: 16px;
+        border: 2px solid #d6698e;
+    }
 }
