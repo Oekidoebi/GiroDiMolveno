@@ -333,6 +333,17 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
 .floating-label-form-group-with-value label{
     opacity: 0;
 }
+
+.text-danger, .text-danger:hover {
+    color: #e74c3c;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.alert-success {
+    background-color: #CE2B37;
+    border-color: #CE2B37;
+}
 /*END CONTACT*/
 
 /*NAVIGATION BAR*/

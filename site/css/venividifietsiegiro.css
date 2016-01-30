@@ -43,6 +43,15 @@ header{
     background-color: #303031;
 }
 
+.text-danger, .text-danger:hover {
+    color: #d6698e;
+}
+
+.alert-success {
+    background-color: #d6698e;
+    border-color: #d6698e;
+}
+
 .vvf-intro-container{
     background-color: #303031;
     border-radius: 4px;
