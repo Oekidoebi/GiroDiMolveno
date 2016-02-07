@@ -303,6 +303,29 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
     color:#fff;
 }
 
+.vvf-erica-fa{
+    font-size:2em !important;
+}
+
+#vvf-erica{
+    padding:0px;
+    background-color: #303031;
+    color:#d6698e;
+}
+
+#vvf-erica .vvf-main-text{
+    margin-top:15px;
+}
+
+#vvf-erica .vvf-main-text .tagline{
+    margin:0px;
+    color:#fff;
+}
+
+.vvf-video-navbar{
+    margin-bottom:0px;
+}
+
 
 /*Fix for Ipad/Iphone/IOS problem with background images*/
 @media screen and (max-device-width: 1023px){
