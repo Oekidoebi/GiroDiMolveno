@@ -291,7 +291,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 }
 
 /*VIDEO*/
-#Videomodal .modal-content{
+/*#Videomodal .modal-content{
     background: #303031;
     color:#d6698e;
 }
@@ -301,7 +301,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 
 #Videomodal p {
     color:#fff;
-}
+}*/
 
 .vvf-erica-fa{
     font-size:2em !important;
@@ -326,6 +326,14 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
     margin-bottom:0px;
 }
 
+.vvf-video-navbar .navbar-right{
+    float: right !important;
+}
+
+.vvf-video-navbar .nav>li>a:hover, .nav>li>a:focus{
+    background-color:#d6698e;
+    color:#303031;
+}
 
 /*Fix for Ipad/Iphone/IOS problem with background images*/
 @media screen and (max-device-width: 1023px){
