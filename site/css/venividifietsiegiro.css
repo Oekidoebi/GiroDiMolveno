@@ -191,6 +191,11 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
     border-color: #303031;
 }
 
+.vvf-btn-video{
+    width:75%;
+    border: 3px #d6698e solid;
+}
+
 /*GIRO-INFO*/
 .giro-kosten, .giro-wiewat{
     border: 4px solid #d6698e;
@@ -274,6 +279,30 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
         font-size: 1.75em;
     }
 }
+
+.portfolio-modal .close-modal .lr {
+    width:2px;
+    background-color: #d6698e;
+}
+
+.portfolio-modal .close-modal .lr .rl{
+    width:2px;
+    background-color: #d6698e;
+}
+
+/*VIDEO*/
+#Videomodal .modal-content{
+    background: #303031;
+    color:#d6698e;
+}
+#Videomodal hr.star-primary {
+    border-color:#fff;
+}
+
+#Videomodal p {
+    color:#fff;
+}
+
 
 /*Fix for Ipad/Iphone/IOS problem with background images*/
 @media screen and (max-device-width: 1023px){
