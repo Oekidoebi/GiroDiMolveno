@@ -232,15 +232,24 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 
 .giro-procedure .giro-circled-number{
     color:#fff;
+    font-size:1.2em;
 }
 
 .giro-procedure .progress{
     height:1.5em;
+    margin-left:5%;
+    margin-right:5%;
+        
 }
 
 .giro-procedure .progress-bar{
     background-color: #d6698e;
 }
+
+.giro-procedure .progress .progress-bar{
+    line-height:21px;
+    font-size:1em;
+} 
 
 .giro-kosten p span{
     color:#303031;
