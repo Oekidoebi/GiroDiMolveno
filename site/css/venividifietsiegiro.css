@@ -53,7 +53,7 @@ header{
 }
 
 .vvf-intro-container{
-    background-color: #303031;
+    //background-color: #303031;
     border-radius: 4px;
     padding-top:10px;
     padding-bottom:10px;
@@ -94,6 +94,9 @@ header{
     border-radius: 4px;
     color:#fff;
     padding:1em;
+}
+.giro-about-giro .tagline{
+    margin-bottom:1em;
 }
 
 .giro-p-roze{
@@ -156,27 +159,20 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
 }
 /*END AANMELDEN*/
 
-/*TUSSENSECTIE*/
-#giro-tussensectie{
-    background: url(../img/giroweek/giroerica.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
-
-#giro-tussensectie .thumbnail{
-    background-color: #d6698e;
-    border: 1px solid #d6698e;
-}
-
-@media(max-width:767px){
-    #giro-tussensectie .thumbnail{
-        display:none;
-    }
-}
-
 /*HOOGTEPROFIELEN*/
+#giro-hoogteprofielen .tagline{
+    color:#d6698e;
+    background-color: rgba(41, 41, 41, 0.8);
+    border-radius: 6px;
+    margin: 0 15% 1em 15%;
+}
+
+#giro-hoogteprofielen .vvf-main-text p{
+    margin: 0 15% 1em 15%;
+    background-color: rgba(41, 41, 41, 0.8);
+    border-radius: 6px;
+}
+
 #giro-hoogteprofielen{
     background: url(../img/giroweek/giropicnic.jpg);
     background-size: cover;

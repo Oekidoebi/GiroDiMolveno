@@ -1458,4 +1458,23 @@ $(document).ready(function () {
             [1600, 5]
         ]
     });
+    
+    $("#impressie").owlCarousel({
+        navigation: false, // Show next and prev buttons
+        paginationSpeed: 5000,
+        slideSpeed: 5000,
+        autoHeight: true,
+        itemsCustom: [
+            [0, 1],
+            [450, 2],
+            [600, 2],
+            [700, 2],
+            [1000, 4],
+            [1200, 4],
+            [1400, 5],
+            [1600, 6]
+        ],
+        pagination: true,
+        autoPlay: 4000
+    });
 });
