@@ -1462,7 +1462,6 @@ $(document).ready(function () {
     $("#impressie").owlCarousel({
         navigation: false, // Show next and prev buttons
         paginationSpeed: 5000,
-        slideSpeed: 5000,
         autoHeight: true,
         itemsCustom: [
             [0, 1],
@@ -1474,7 +1473,7 @@ $(document).ready(function () {
             [1400, 5],
             [1600, 6]
         ],
-        pagination: true,
-        autoPlay: 4000
+        pagination: false,
+        autoPlay: 5000
     });
 });
