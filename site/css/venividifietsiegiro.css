@@ -29,6 +29,10 @@ header{
     background-image:url(../img/giroweek/giroerica.jpg);    
 }
 
+.vvf-pasop-header{
+    background-image:url(../img/giroweek/giropicnic.jpg) !important;    
+}
+
 .vvf-aanmelden-btn {
     padding: 15px 70px;
     color: #fff;
@@ -66,22 +70,6 @@ header{
     header .intro-text .skills {
         font-size:1.25em;
     }
-}
-
-/*NAVIGATION BAR*/
-.navbar-default{
-    background-color: #d6698e;
-}
-
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus,
-.navbar-default .navbar-nav>.active>a:hover, 
-.navbar-default .navbar-nav>.active>a:focus,
-.navbar-default .navbar-nav>.active>a, 
-.navbar-default .navbar-nav>li>a:hover, 
-.navbar-default .navbar-nav>li>a:focus, 
-.navbar-default .navbar-nav>.active>a:hover{
-    color: #303031;
-    background-color: transparent;
 }
 
 /*ABOUT GIRO*/
@@ -144,7 +132,7 @@ form .row:first-child .floating-label-form-group{
 }
 
 .vvf-btn:hover, .vvf-btn-2:hover, .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active{
-    color:#d6698e;
+    //color:#d6698e;
 }
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
@@ -157,7 +145,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
 
 /*HOOGTEPROFIELEN*/
 #giro-hoogteprofielen .tagline{
-    color:#d6698e;
+    //color:#d6698e;
     background-color: rgba(41, 41, 41, 0.8);
     border-radius: 6px;
     margin: 0 15% 1em 15%;
@@ -179,13 +167,23 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
     //height:350px;
 }
 
+#pasop-possibilita{
+    background: url(../img/giroweek/corona.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    //height:350px;
+}
+
 a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
     border-color: #303031;
 }
 
 .vvf-btn-video{
     width:75%;
-    border: 3px #d6698e solid;
+    //border: 3px #d6698e solid;
 }
 
 /*GIRO-INFO*/
@@ -344,13 +342,13 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 }
 
 .vvf-video-navbar .nav>li>a:hover, .nav>li>a:focus{
-    background-color:#d6698e;
+    //background-color:#d6698e;
     color:#303031;
 }
 
 /*Fix for Ipad/Iphone/IOS problem with background images*/
 @media screen and (max-device-width: 1023px){
-    #vvf-aanmelden,#giro-tussensectie,#giro-hoogteprofielen{
+    #vvf-aanmelden,#giro-tussensectie,#giro-hoogteprofielen,#pasop-possibilita{
         background-attachment: scroll;
     }
     

@@ -69,7 +69,7 @@ header{
     font-weight: 200;
 }
 
-@media(max-width:767px){
+@media(max-width:991px){
     .btn-vvf-header{
         //margin-top:10px;
         //margin-bottom:10px;
