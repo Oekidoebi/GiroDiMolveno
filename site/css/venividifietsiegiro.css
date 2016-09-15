@@ -316,12 +316,13 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 
 .vvf-erica-fa{
     font-size:2em !important;
+	color:#303031;
 }
 
 #vvf-erica{
     padding:0px;
     background-color: #303031;
-    color:#d6698e;
+    //color:#d6698e;
 }
 
 #vvf-erica .vvf-main-text{
@@ -333,8 +334,16 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
     color:#fff;
 }
 
+#vvf-erica .vvf-main-text h2{
+    color:#960611;
+}
+
 .vvf-video-navbar{
     margin-bottom:0px;
+}
+
+.vvf-video-navbar .navbar-brand{
+    color: #303031;
 }
 
 .vvf-video-navbar .navbar-right{
@@ -342,8 +351,8 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 }
 
 .vvf-video-navbar .nav>li>a:hover, .nav>li>a:focus{
-    //background-color:#d6698e;
-    color:#303031;
+    background-color:transparent;
+    color:#960611;
 }
 
 /*Fix for Ipad/Iphone/IOS problem with background images*/
